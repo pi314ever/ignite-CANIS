@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ignite-canis"
+version = "0.1.0"
+description = ""
+authors = ["pi314ever <pilotflyer824@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ignite_canis"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.15.2"
+ipykernel = "^6.26.0"
+python-dotenv = "^1.0.0"
+pandas = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
